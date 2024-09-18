@@ -38,9 +38,9 @@ import numpy as np
 import ti_lib
 
 # Sample inputs:
+period:   int = 2
 data_arr: np.ndarray[np.float32] = np.array([1.0, 2.0, 3.0, 4.0, 5.0, 2.0, 3.0, 5.0], dtype = np.float32)
-period:   np.float32             = 2
 
 # Example for RSI:
-rsi_arr:  np.ndarray[np.float32] = ti_lib.get_rsi(data_arr, period)
+rsi_arr: np.ndarray[np.float32] = ti_lib.get_rsi(data_arr, period)
 ```
