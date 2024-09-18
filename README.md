@@ -37,9 +37,9 @@ A set of functions to calculate various technical indicators.
 import numpy as np
 import ti_lib
 
-# Sample inputs:
+# Sample Inputs:
 period:   int = 2
-data_arr: np.ndarray[np.float32] = np.array([1.0, 2.0, 3.0, 4.0, 5.0, 2.0, 3.0, 5.0], dtype = np.float32)
+data_arr: np.ndarray[np.float32] = np.array([1, 2, 3, 4, 5, 2, 3, 5], dtype = np.float32)
 
 # Example for RSI:
 rsi_arr: np.ndarray[np.float32] = ti_lib.get_rsi(data_arr, period)
