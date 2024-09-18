@@ -33,14 +33,14 @@ A set of functions to calculate various technical indicators.
 
 ## Usage Example
 
-    ```python
-    import numpy as np
-    import ti_lib
+```python
+import numpy as np
+import ti_lib
 
-    # Sample inputs:
-    data_arr: np.ndarray[np.float32] = np.array([1.0, 2.0, 3.0, 4.0, 5.0, 2.0, 3.0, 5.0], dtype = np.float32)
-    period:   np.float32             = 2
-    
-    # Example for RSI:
-    rsi_arr:  np.ndarray[np.float32] = ti_lib.get_rsi(data_arr, period)
-    ```
+# Sample inputs:
+data_arr: np.ndarray[np.float32] = np.array([1.0, 2.0, 3.0, 4.0, 5.0, 2.0, 3.0, 5.0], dtype = np.float32)
+period:   np.float32             = 2
+
+# Example for RSI:
+rsi_arr:  np.ndarray[np.float32] = ti_lib.get_rsi(data_arr, period)
+```
